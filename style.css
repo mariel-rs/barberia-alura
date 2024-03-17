@@ -247,3 +247,20 @@ td, th {
     margin: 1em auto;
 }
 
+@media screen and (max-width:480px){
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .box, .main, .map-content, .diferenciales-content, .video {
+        width: auto;
+    }
+
+    .diferenciales-list, .img-diferenciales {
+        width: 100%;
+    }
+}
