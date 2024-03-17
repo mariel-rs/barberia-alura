@@ -234,6 +234,12 @@ td, th {
 
 .img-diferenciales {
     width: 60%;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 5px #000000;
+}
+
+.img-diferenciales:hover {
+    opacity: 0.3;
 }
 
 .video {
