@@ -1,3 +1,10 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
 header {
     background-color: #CCCCCC;
     padding: 20px 0;
