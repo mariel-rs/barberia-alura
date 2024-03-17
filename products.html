@@ -50,8 +50,13 @@
 
         <footer>
             <img src="img/logo-blanco.png" alt="Logo de la Barbería Alura">
-            <p class="copyright">&copy; Copyright Barbería Alura - <script>document.write( new Date().getFullYear() );</script></p>
+            <p class="copyright">&copy; Copyright Barbería Alura - <span id="year"></span> </p>
         </footer>
+
     </body>
+    
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
 
 </html>
