@@ -263,4 +263,34 @@ td, th {
     .diferenciales-list, .img-diferenciales {
         width: 100%;
     }
+
+    /* Product list */
+    
+    .products {
+        width: auto;
+        padding: 2%;
+        display: inline-flex;
+    }
+
+    h2+img {
+        width: 100%;
+        margin: 1em 0 1em 0;
+    }
+
+    .products h2 {
+        font-size: 1em;
+    }
+    
+    .products li:hover h2{
+        font-size: 1.2em;
+    }
+    
+    .productDescription {
+        font-size: 0.75em;
+    }
+    
+    .productPrice {
+        font-size: 0.9em;
+        margin-top: 1em;
+    }
 }
